@@ -1,0 +1,284 @@
+@media (max-width: 1200px) {
+    #INTRO {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro-left, .intro-right {
+        align-items: center;
+        text-align: center;
+    }
+
+    .intro-cat {
+        position: static;
+        margin-top: 20px;
+    }
+
+    #INTRO h1 {
+        font-size: 120px;
+    }
+
+    #INTRO p {
+        font-size: 20px;
+    }
+
+    .donate-img {
+        width: 40px;
+        left: 10px;
+    }
+
+    .donation_btn2 .btn {
+        font-size: 20px;
+        padding: 5px 25px;
+    }
+
+    .stats-container {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .stat-item {
+        margin: 15px 0;
+    }
+
+    .stat-number {
+        font-size: 2.5rem;
+    }
+
+    .stat-label {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        height: 70px;
+        padding: 0 10px;
+    }
+
+    #main_title {
+        font-size: 80px;
+        padding-top: 20%;
+    }
+
+    .subtitle {
+        font-size: 20px;
+    }
+
+    .donation_btn .btn {
+        font-size: 16px;
+        padding: 6px 20px;
+    }
+
+    .intro-cat {
+        width: 80px;
+        top: -10px;
+        right: -10px;
+    }
+
+    #INTRO h1 {
+        font-size: 100px;
+    }
+
+    #INTRO p {
+        font-size: 18px;
+    }
+
+    .donate-img {
+        width: 30px;
+        left: 10px;
+    }
+
+    .donation_btn2 .btn {
+        font-size: 18px;
+        padding: 4px 20px;
+    }
+
+    .stats-container {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .stat-item {
+        margin: 15px 0;
+    }
+
+    .stat-number {
+        font-size: 2rem;
+    }
+
+    .stat-label {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        height: 60px;
+        padding: 0 5px;
+    }
+
+    #main_title {
+        font-size: 60px;
+        padding-top: 30%;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    .donation_btn .btn {
+        font-size: 14px;
+        padding: 4px 15px;
+    }
+
+    .intro-cat {
+        width: 60px;
+        top: 0;
+        right: 0;
+    }
+
+    #INTRO h1 {
+        font-size: 80px;
+    }
+
+    #INTRO p {
+        font-size: 16px;
+    }
+
+    .donate-img {
+        width: 20px;
+        left: 5px;
+    }
+
+    .donation_btn2 .btn {
+        font-size: 16px;
+        padding: 3px 15px;
+    }
+
+    .stats-container {
+        flex-direction: column;
+        padding: 15px 0;
+    }
+
+    .stat-item {
+        margin: 10px 0;
+    }
+
+    .stat-number {
+        font-size: 1.5rem;
+    }
+
+    .stat-label {
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 1920px) {
+    #main_title {
+        font-size: 140px;
+    }
+
+    .subtitle {
+        font-size: 40px;
+    }
+
+    .donation_btn .btn {
+        font-size: 24px;
+        padding: 10px 40px;
+    }
+
+    .intro-cat {
+        width: 150px;
+        top: -30px;
+        right: -30px;
+    }
+
+    #INTRO h1 {
+        font-size: 180px;
+    }
+
+    #INTRO p {
+        font-size: 24px;
+    }
+
+    .donate-img {
+        width: 60px;
+        left: 30px;
+    }
+
+    .donation_btn2 .btn {
+        font-size: 26px;
+        padding: 8px 40px;
+    }
+
+    .stats-container {
+        padding: 30px 0;
+    }
+
+    .stat-number {
+        font-size: 4rem;
+    }
+
+    .stat-label {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 2560px) {
+    #main_title {
+        font-size: 160px;
+    }
+
+    .subtitle {
+        font-size: 50px;
+    }
+
+    .donation_btn{
+        margin-top: 40px;
+    }
+
+    .donation_btn .btn {
+        font-size: 28px;
+        padding: 12px 50px;
+    }
+
+    .intro-cat {
+        width: 300px;
+        height: 220px;
+        top: -90px;
+        right: -90px;
+    }
+
+    #INTRO h1 {
+        font-size: 200px;
+    }
+
+    #INTRO p {
+        font-size: 28px;
+    }
+
+    .donate-img {
+        width: 25%;
+        height: auto;
+        left: 36%;
+    }
+
+    .donation_btn2 .btn {
+        left: 47%;
+        font-size: 30px;
+        padding: 10px 50px;
+    }
+
+    .stats-container {
+        padding: 40px 0;
+    }
+
+    .stat-number {
+        font-size: 5rem;
+    }
+
+    .stat-label {
+        font-size: 1.5rem;
+    }
+}

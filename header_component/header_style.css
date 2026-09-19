@@ -1,0 +1,119 @@
+header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width:100%;
+    height:85px;
+    background-color:#FAF9F6;
+    padding: 0 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index:10;
+    border-radius: 25px;
+    transition: all 0.5s ease, opacity 0.5s ease, top 0.5s ease, background-color 0.5s ease;
+}
+
+header.scrolled {
+    top: -85px; /* Move header up when scrolled */
+}
+
+header.returned {
+    top: 0; /* Return header to original position */
+}
+
+.clearfix::after
+{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+#Title-div {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    padding-left: 120px;
+}
+
+#header a {
+    display: flex;
+    align-items: center;
+}
+
+#header img {
+    width: 80px;
+    height: 70px;
+    margin: 0; /* Ensure no extra margin */
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-links > li {
+    position: relative;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold; /* Make the text bold */
+    padding: 15px 5px;
+    display: flex;
+    align-items: center;
+    font-family: 'Rubik', sans-serif; /* Apply Rubik font */
+    transition: color 0.3s ease;
+}
+
+.nav-links > li > a:hover {
+    color:pink;
+}
+
+/* Dropdown menu styling */
+.dropdown {
+    display: none; /* Hidden by default */
+    position: absolute;
+    top: 100%; /* Positioned below the parent */
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 10px 0;
+    min-width: 150px;
+}
+
+.dropdown li {
+    padding: 0;
+}
+
+.dropdown a {
+    padding: 10px 15px;
+    color: #333;
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+.dropdown a:hover {
+    background-color: pink;
+    color: #fff;
+}
+
+/* Show dropdown menu on hover */
+.nav-links > li:hover .dropdown {
+    display: block;
+}
+
+
+#login-div {
+    margin-left: auto;
+    padding-right: 80px;
+    display: flex;
+    align-items: center;
+}
